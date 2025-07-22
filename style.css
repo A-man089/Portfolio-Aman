@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(0,0,33);
+   font-family: "Poppins", sans-serif;
+  font-weight: 550;
+  font-style: normal;
+}
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:80px;
+    background-color: #101138;
+    position: absolute;
+    top: 0;
+    width:100%;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li{
+    list-style: none;
+    margin: 0 27px;
+    border-radius:1000px;
+}
+.left{
+    font-size: 1.8rem;
+    
+}
+.firstsection{
+    
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 60px;
+    color:white;
+    gap:300px;
+}
+.leftsection{
+    width:70%;
+    color: #90e0ef;
+    height:500px;
+    font-size: 1.3rem;
+    flex:1;
+}
+.rightsection{
+    width:50%;
+    height:500px;
+}
+
+.leftsection div{
+    color: #910e8d;
+    font-size: 1rem;
+  font-weight: 700;
+
+
+  font-size: 25px;
+  font-weight: 550;
+  color: #ffffff;
+  text-shadow: 0 0 20px #17b8c6, 0 0 20px #7b32c0a5;
+   
+  padding: 8px 16px;
+  border-radius: 20px;
+  color: rgb(159, 44, 194);
+  
+  letter-spacing: 1px;
+}
+.profile-pic {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 25px rgba(255, 0, 255, 0.3), 0 0 10px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-pic:hover {
+  transform: scale(1.05);
+}
+body {
+  background-image: url(bgimage.jpg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+button{
+    padding:1em 2em;
+    background-color: #11126b;
+    border: none;
+    color: #fff;
+    font-style: bold;
+    border-radius: 1000px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button::after{
+    content:'';
+    position: absolute;
+    height: 107%;
+    width:102%;
+    border-radius:1000px;
+    background-image: linear-gradient(to bottom right,#008cff,#e100ff);
+    z-index: -1;
+    font-weight: 400;
+}
+button:hover{
+    z-index: 0;
+    box-shadow: 40px 0 100px #008cff73, -40px 0 100px #e100ff63;
+
+}
+.profile-pic:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+}
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid white;
+  animation: typing 4s steps(30, end), blink 0.75s step-end infinite;
+  color: #c672d2aa;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
+h1 {
+  background: linear-gradient(90deg, #ff6ec4, #7873f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-weight: 700;
+}
+nav ul li a {
+  padding: 10px 20px;
+  border-radius: 25px;
+  background-color: #1e1e6f;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background: linear-gradient(to right, #ff6ec4, #7873f5);
+}
+.left {
+  font-size: 28px;
+  font-weight: 700;
+  background: linear-gradient(to right, #bcb5b9, #7873f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 28px;
+  font-weight: 600;
+  color: #ffffff;
+  text-shadow: 0 0 10px #3c096c, 0 0 20px #7b32c0a5;
+   background-color: #d82791;
+  padding: 8px 16px;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+.right li button {
+  font-family: 'Poppins', sans-serif; 
+  font-weight: 600;                   
+  font-size: 16px;
+  color: white;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.about-box {
+  width: 100%;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  color: #90e0ef;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  height:130px;
+
+  
+}
+
+.about-box:hover {
+  box-shadow: 0 0 20px 2px #2eeef8;
+  border: 2px solid #32ede4;
+}
+
+.footer{
+
+    text-align: center;
+    font-family:"Poppins", sans-serif;
+    
+    font-size: 28px;
+  font-weight: 700;
+  background: linear-gradient(to right, #d54797, #504bc5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 25px;
+  font-weight: 600;
+  color: #ffffff;
+  text-shadow: 0 0 10px #3c096c, 0 0 20px #7b32c0a5;
+   background-color: #d82791;
+  padding: 8px 16px;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+.cpplogo{
+ text-align: center;          /* Center the image */
+  margin: 40px 0 20px 0;  
+  width: 80px;                 /* Smaller size */
+  height: auto;                /* Maintain aspect ratio */
+  border: 3px solid #00BFFF;   /* Sky-blue border */
+  border-radius: 10px;         /* Rounded corners */
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0, 191, 255, 0.5); /* Soft glow */
+  transition: transform 0.3s ease;
+  background-color: #2eeef8;
+  
+}
+.cpplogo:hover {
+  transform: scale(1.1);       /* Zoom effect on hover */
+}
+.clogo{
+ text-align: center;          /* Center the image */
+  margin: 40px 0 20px 0;  
+  width: 80px;                 /* Smaller size */
+  height: auto;                /* Maintain aspect ratio */
+  border: 3px solid #00BFFF;   /* Sky-blue border */
+  border-radius: 10px;         /* Rounded corners */
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0, 191, 255, 0.5); /* Soft glow */
+  transition: transform 0.3s ease;
+  background-color: #2eeef8;
+  margin-left: 5%;
+}
+.clogo:hover {
+  transform: scale(1.1);       /* Zoom effect on hover */
+}
+.htmllogo{
+ text-align: center;          /* Center the image */
+  margin: 40px 0 20px 0;  
+  width: 80px;                 /* Smaller size */
+  height: auto;                /* Maintain aspect ratio */
+  border: 3px solid #00BFFF;   /* Sky-blue border */
+  border-radius: 10px;         /* Rounded corners */
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0, 191, 255, 0.5); /* Soft glow */
+  transition: transform 0.3s ease;
+  background-color: #2eeef8;
+  margin-left: 5%;
+}
+.htmllogo:hover {
+  transform: scale(1.1);       /* Zoom effect on hover */
+}
+.csslogo{
+ text-align: center;          /* Center the image */
+  margin: 40px 0 20px 0;  
+  width: 80px;                 /* Smaller size */
+  height: auto;                /* Maintain aspect ratio */
+  border: 3px solid #00BFFF;   /* Sky-blue border */
+  border-radius: 10px;         /* Rounded corners */
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0, 191, 255, 0.5); /* Soft glow */
+  transition: transform 0.3s ease;
+  background-color: #2eeef8;
+  margin-left: 5%;
+}
+.csslogo:hover {
+  transform: scale(1.1);       
+}
+.jslogo{
+ text-align: center;         
+  margin: 40px 0 20px 0;  
+  width: 80px;                 
+  height: auto;                
+  border: 3px solid #00BFFF;   
+  border-radius: 10px;        
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0, 191, 255, 0.5); 
+  transition: transform 0.3s ease;
+  background-color: #2eeef8;
+  margin-left: 5%;
+}
+.jslogo:hover {
+  transform: scale(1.1);       
+}
+.pythonlogo{
+ text-align: center;          
+  margin: 40px 0 20px 0;  
+  width: 80px;                
+  height: auto;                
+  border: 3px solid #00BFFF;   
+  border-radius: 10px;        
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0, 191, 255, 0.5); 
+  transition: transform 0.3s ease;
+  background-color: #2eeef8;
+
+}
+.pythonlogo:hover {
+  transform: scale(1.1);       
+}
+.figmalogo{
+ text-align: center;          
+  margin: 40px 0 20px 0;  
+  width: 80px;                
+  height: auto;                
+  border: 3px solid #00BFFF;   
+  border-radius: 10px;        
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0, 191, 255, 0.5); 
+  transition: transform 0.3s ease;
+  background-color: #2eeef8;
+  margin-left: 5%;
+}
+.figmalogo:hover {
+  transform: scale(1.1);       
+}
+.canvalogo{
+ text-align: center;          
+  margin: 40px 0 20px 0;  
+  width: 80px;                
+  height: auto;                
+  border: 3px solid #00BFFF;   
+  border-radius: 10px;        
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0, 191, 255, 0.5); 
+  transition: transform 0.3s ease;
+  background-color: #2eeef8;
+  margin-left: 5%;
+}
+.canvalogo:hover {
+  transform: scale(1.1);       
+}
+/* Cool infinite background scrolling animation.
+ * Twitter: @kootoopas
+ */
+/* Exo thin font from Google. */
+@import url(https://fonts.googleapis.com/css?family=Exo:100);
+/* Background data (Original source: https://subtlepatterns.com/grid-me/) */
+/* Animations */
+@-webkit-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-moz-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-o-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-webkit-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@-moz-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@-o-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+/* Main styles */
+body {
+  margin-top: 13.5rem;
+  color: #999;
+  font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
+  text-align: center;
+  /* img size is 50x50 */
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
+  -webkit-animation: bg-scrolling-reverse 0.92s infinite;
+  /* Safari 4+ */
+  -moz-animation: bg-scrolling-reverse 0.92s infinite;
+  /* Fx 5+ */
+  -o-animation: bg-scrolling-reverse 0.92s infinite;
+  /* Opera 12+ */
+  animation: bg-scrolling-reverse 0.92s infinite;
+  /* IE 10+ */
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+body::before {
+  font-size: 8rem;
+  font-weight: 100;
+  font-style: normal;
+}

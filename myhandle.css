@@ -1,0 +1,327 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading{
+    background-color: rgb(255, 255, 255) ;
+    margin-left: 33%;
+    margin-top: 5%;
+    color: #ff00f7;
+   
+   font-weight: 700;
+   margin-left: 30%;
+   margin-right: 25%;
+
+   font-size: 2rem;
+   font-weight: 550;
+   color: #fa0000;
+   text-shadow: 0 0 20px #17b8c6, 0 0 20px #14d2b2a5;
+  
+  border-radius: 20px;
+  color: rgb(58, 182, 227);
+  
+  letter-spacing: 1px;
+}
+.linkedlogo{
+ text-align: center;          
+  position: relative;
+  z-index: 10;
+  width: 60px;                
+  height: auto;                
+  border: 3px solid #00BFFF;   
+  border-radius: 10px;        
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0, 191, 255, 0.5); 
+  transition: transform 0.3s ease;
+  background-color: #2eeef8;
+  margin-left: 5%;
+  margin-top: 10%;
+  cursor: pointer;
+  gap: 20px;
+
+}
+.linkedlogo:hover {
+  transform: scale(1.1); 
+}
+.area h1{
+     background-color: rgb(32, 25, 132) ;
+    margin-left: 33%;
+    
+     color: #c236be;
+    font-size: 1.5rem;
+  font-weight: 700;
+
+
+  font-size: 2rem;
+  font-weight: 550;
+  color: #ffffff;
+  text-shadow: 0 0 20px #17b8c6, 0 0 20px #14d2b2a5;
+   
+  border-radius: 20px;
+  color: rgb(202, 148, 241);
+  letter-spacing: 1px;
+  margin-left: 47%;
+  margin-bottom: 10%;
+  margin-top:-4%;
+}
+
+.instalogo{
+ text-align: center;          
+  position: relative;
+  z-index: 10;
+  width: 60px;                
+  height: auto;                
+  border: 3px solid #00BFFF;   
+  border-radius: 10px;        
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0, 191, 255, 0.5); 
+  transition: transform 0.3s ease;
+  background-color: #2eeef8;
+  margin-left: 10%;
+  margin-top: 10%;
+  cursor: pointer;
+
+}
+.instalogo:hover {
+  transform: scale(1.1); 
+}
+
+.gmaillogo{
+ text-align: center;          
+  position: relative;
+  z-index: 10;
+  width: 60px;                
+  height: auto;                
+  border: 3px solid #00BFFF;   
+  border-radius: 10px;        
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0, 191, 255, 0.5); 
+  transition: transform 0.3s ease;
+  background-color: #2eeef8;
+  margin-left: 10%;
+  margin-top: 10%;
+  cursor: pointer;
+
+}
+.gmaillogo:hover {
+  transform: scale(1.1); 
+}
+.pinterestlogo{
+ text-align: center;          
+  position: relative;
+  z-index: 10;
+  width: 60px;                
+  height: auto;                
+  border: 3px solid #00BFFF;   
+  border-radius: 10px;        
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0, 191, 255, 0.5); 
+  transition: transform 0.3s ease;
+  background-color: #2eeef8;
+  margin-left: 10%;
+  margin-top: 10%;
+  cursor: pointer;
+
+}
+.pinterestlogo:hover {
+  transform: scale(1.1); 
+}
+
+/* Cool infinite background scrolling animation.
+ * Twitter: @kootoopas
+ */
+/* Exo thin font from Google. */
+@import url(https://fonts.googleapis.com/css?family=Exo:100);
+/* Background data (Original source: https://subtlepatterns.com/grid-me/) */
+/* Animations */
+@-webkit-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-moz-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-o-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-webkit-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@-moz-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@-o-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+/* Main styles */
+body {
+  margin-top: 13.5rem;
+  color: #999;
+  font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
+  text-align: center;
+  /* img size is 50x50 */
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
+  -webkit-animation: bg-scrolling-reverse 0.92s infinite;
+  /* Safari 4+ */
+  -moz-animation: bg-scrolling-reverse 0.92s infinite;
+  /* Fx 5+ */
+  -o-animation: bg-scrolling-reverse 0.92s infinite;
+  /* Opera 12+ */
+  animation: bg-scrolling-reverse 0.92s infinite;
+  /* IE 10+ */
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+body::before {
+  font-size: 8rem;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:80px;
+    background-color: #101138;
+    position: absolute;
+    top: 0;
+    width:100%;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li{
+    list-style: none;
+    margin: 0 27px;
+    border-radius:1000px;
+}
+.left{
+    font-size: 1.8rem;
+    
+}
+.firstsection{
+    
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 60px;
+    color:white;
+    gap:300px;
+}
+.leftsection{
+    width:70%;
+    color: #90e0ef;
+    height:500px;
+    font-size: 1.3rem;
+    flex:1;
+}
+.rightsection{
+    width:50%;
+    height:500px;
+}
+
+.leftsection div{
+    color: #910e8d;
+    font-size: 1rem;
+  font-weight: 700;
+
+
+  font-size: 25px;
+  font-weight: 550;
+  color: #ffffff;
+  text-shadow: 0 0 20px #17b8c6, 0 0 20px #7b32c0a5;
+   
+  padding: 8px 16px;
+  border-radius: 20px;
+  color: rgb(159, 44, 194);
+  
+  letter-spacing: 1px;
+}
+
+h1 {
+  background: linear-gradient(90deg, #ff6ec4, #7873f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-weight: 700;
+}
+nav ul li a {
+  padding: 10px 20px;
+  border-radius: 25px;
+  background-color: #1e1e6f;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background: linear-gradient(to right, #ff6ec4, #7873f5);
+}
+.left {
+  font-size: 28px;
+  font-weight: 700;
+  background: linear-gradient(to right, #bcb5b9, #7873f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 28px;
+  font-weight: 600;
+  color: #ffffff;
+  text-shadow: 0 0 10px #3c096c, 0 0 20px #7b32c0a5;
+   background-color: #d82791;
+  padding: 8px 16px;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+.right li button {
+  font-family: 'Poppins', sans-serif; 
+  font-weight: 600;                   
+  font-size: 16px;
+  color: white;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+

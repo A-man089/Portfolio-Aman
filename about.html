@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+ <header>
+        <nav>
+            <div class="left">Aman's Portfolio</div>
+            <div class="right">
+            <ul>
+                      <li><a href="index.html" class="nav-button">Home</a></li>
+                      <li><a href="about.html" class="nav-button">About Me</a></li>
+                      <li><a href="experience.html" class="nav-button">Experiences</a></li>
+                      <li><a href="handles.html" class="nav-button">My Handles</a></li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+<section class="about-card reveal">
+  <h2 class="fancy-heading">About <span>Me</span></h2>
+  <br>
+  <div class="rightsection">
+              <img src="myimage2.jpg" alt="My Profile Photo" class="profile-pic">
+             </div>
+  <br>
+  <div>
+  <p class="one">Hi, I'm <span class="highlightreal">Aman Chaurasia</span> — a passionate tech enthusiast and an aspiring web developer, currently pursuing my studies at VNIT Nagpur. I’ve always been fascinated by the way technology shapes our world, and this curiosity has led me to explore the vast and ever-evolving field of computer science. Although I'm still early in my web development journey, I’ve already developed a strong foundation in  <span class="highlight">HTML</span>,  <span class="highlight">CSS</span>, and  <span class="highlight">JavaScript</span>, and I’m constantly experimenting with new tools and frameworks to bring my ideas to life.</p>
+<br>
+<p class="two">I enjoy the process of transforming raw code into smooth, interactive experiences. Whether it's building responsive websites or learning to optimize user interfaces, I find joy in both the logic and creativity involved in development. What started as a casual interest has now grown into a serious pursuit, one I hope to turn into a career in the near future.</p>
+<br>
+<p class="three">Beyond the world of tech, I have a deep love for  <span class="highlight">Chess</span>. I’m actively involved in  <span class="highlight">Blitzkreig</span>, the official chess club of VNIT, where I serve as an  <span class="highlight">Event Manager</span>. Organizing tournaments, designing event posts, and strategizing both on and off the board has helped sharpen my analytical thinking and team collaboration skills. I believe chess and coding are quite similar — both require patience, foresight, and problem-solving.</p>
+<br>
+
+<p class="four">When I'm not buried in code or planning chess events, you'll likely find me immersed in  <span class="highlight">Valorant</span>. It’s more than just a game to me — it’s a test of reflexes, strategy, and coordination. It also gives me a chance to unwind and connect with friends.</p>
+<br>
+<p class="five">In short, I’m someone who thrives at the intersection of logic, design, and play. I’m always looking to learn, grow, and contribute to meaningful projects. Whether it's a new tech stack, a coding challenge, or a complex endgame in chess — I’m always up for the next move.</p>
+<br>
+</p>
+</div>
+</section>
+<script>
+  const reveals = document.querySelectorAll(".reveal");
+
+  const options = {
+    threshold: 0.1,
+  };
+
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        entry.target.classList.add("active");
+        observer.unobserve(entry.target); // optional: remove after animation
+      }
+    });
+  }, options);
+
+  reveals.forEach(reveal => {
+    observer.observe(reveal);
+  });
+</script>
+
+
+   
+</body>
+</html>
