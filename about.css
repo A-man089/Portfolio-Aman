@@ -13,13 +13,9 @@ body{
   font-weight: 400;
   font-style: normal;
 }
-/* Cool infinite background scrolling animation.
- * Twitter: @kootoopas
- */
-/* Exo thin font from Google. */
+
 @import url(https://fonts.googleapis.com/css?family=Exo:100);
-/* Background data (Original source: https://subtlepatterns.com/grid-me/) */
-/* Animations */
+
 @-webkit-keyframes bg-scrolling-reverse {
   100% {
     background-position: 50px 50px;
@@ -60,22 +56,22 @@ body{
     background-position: 50px 50px;
   }
 }
-/* Main styles */
+
 body {
   margin-top: 13.5rem;
   color: #999;
   font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
   text-align: center;
-  /* img size is 50x50 */
+ 
   background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
   -webkit-animation: bg-scrolling-reverse 0.92s infinite;
-  /* Safari 4+ */
+  
   -moz-animation: bg-scrolling-reverse 0.92s infinite;
-  /* Fx 5+ */
+  
   -o-animation: bg-scrolling-reverse 0.92s infinite;
-  /* Opera 12+ */
+  
   animation: bg-scrolling-reverse 0.92s infinite;
-  /* IE 10+ */
+
   -webkit-animation-timing-function: linear;
   -moz-animation-timing-function: linear;
   -o-animation-timing-function: linear;
@@ -245,16 +241,16 @@ nav ul li a:hover {
   line-height: 1.8;
 }
 .highlight {
-  color: #8e44ad;         /* Nice purple */
+  color: #8e44ad;        
   font-weight: bold;
-  background-color: #f3e9ff; /* Optional light background highlight */
+  background-color: #f3e9ff; 
   padding: 2px 4px;
   border-radius: 4px;
 }
 .highlightreal{
-  color: #e2270ec3;         /* Nice purple */
+  color: #e2270ec3;        
   font-weight: bold;
-  background-color: #f3e9ff; /* Optional light background highlight */
+  background-color: #f3e9ff; 
   padding: 2px 4px;
   border-radius: 4px;
 }
@@ -263,7 +259,7 @@ nav ul li a:hover {
   font-weight: 800;
   text-align: center;
   position: relative;
-  color: #6a0dad; /* royal purple */
+  color: #6a0dad; 
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 20px;
@@ -324,7 +320,7 @@ nav ul li a:hover {
 }
 .about-content {
   display: flex;
-  flex-wrap: wrap; /* Makes the right text wrap below on smaller screens */
+  flex-wrap: wrap;
   align-items: flex-start;
   gap: 30px;
   margin-top: 20px;
